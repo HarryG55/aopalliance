@@ -5,9 +5,13 @@ import org.aopalliance.reflect.Locator;
 
 /**
  * This interface represents an instrumentation on the base program.
+ * 
+ * 这个接口代表了一个基本程序上的一个仪器化。
  *
  * <p>The program instrumentor implementation should return an
  * intrumentation instance for each intrumentation which is performed.
+ * 
+ * 仪器化程序实现应该为每个执行的仪器化返回一个仪器化实例。
  *
  * @see Instrumentor */
 
@@ -21,7 +25,7 @@ public interface Instrumentation {
    int ADD_CLASS=2;
    /** Before code instrumentation type. */
    int ADD_BEFORE_CODE=3;
-   /** After code adding instrumentation type. */
+   /** After code adding instrumenta   tion type. */
    int ADD_AFTER_CODE=4;
    /** Metadata adding instrumentation type. */
    int ADD_METADATA=5;

@@ -8,11 +8,16 @@ public interface Class extends ProgramUnit {
 
    /**
     * Returns the class locator that corresponds to this class.
+    * 
+    * 返回与此类对应的类定位器。
     *
     * <p>This method returns exactly the same result as
     * <code>ProgramUnit.getLocator()</code> but with a more precise
     * type (<code>ClassLocator</code> instead of
     * <code>UnitLocator</code>).
+    *
+    * 这个方法返回的结果实际上和<code>ProgramUnit.getLocator()</code>完全相同，
+    * 只不过提供了更精确的类型（提供<code>ClassLocator</code>而不是<code>UnitLocator</code>）
     *
     * @see ProgramUnit#getLocator() */
    ClassLocator getClassLocator();

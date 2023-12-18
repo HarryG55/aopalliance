@@ -3,6 +3,8 @@ package org.aopalliance.reflect;
 
 /**
  * This represents a piece of code in the program.
+ * 
+ * 这个接口代表一段代码
  *
  * <p>It is formed of a set of instructions and can be implemented at
  * bytecode or source-code level.

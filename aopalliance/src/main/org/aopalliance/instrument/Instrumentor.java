@@ -10,10 +10,14 @@ import org.aopalliance.reflect.UnitLocator;
 /**
  * This interface defines all the methods that perform program
  * instrumentations that are useful for AOP.
+ * 
+ * 这个接口定义了所有对AOP有用的程序仪器化的方法。
  *
  * <p>The modifications definitions rely on an abstract representation
  * of locators, as defined in the {@link org.aopalliance.reflect}
  * package.
+ * 
+ * 修改定义依赖于定位器的抽象表示，如{@link org.aopalliance.reflect}包中所定义的。
  *
  * @see org.aopalliance.reflect.Locator
  * @see org.aopalliance.reflect.ClassLocator

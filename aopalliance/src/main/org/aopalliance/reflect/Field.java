@@ -8,6 +8,8 @@ public interface Field extends Member {
 
    /**
     * Same as <code>getReadLocator(USER_SIDE)</code>.
+    * 
+    * 和<code>getReadLocator(USER_SIDE)</code>一致。
     *
     * @see #getReadLocator(int) */
    CodeLocator getReadLocator();

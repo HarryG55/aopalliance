@@ -9,6 +9,9 @@ import java.io.StringWriter;
  * Unchecked, as such exceptions are fatal and end user
  * code shouldn't be forced to catch them.
  * 
+ * 所有AOP异常的超类。
+ * 声明为未受检异常。用户不应该被强制要求捕获该类异常。
+ * 
  * @author Rod Johnson
  * @author Bob Lee
  */
